@@ -1,0 +1,56 @@
+---
+galaxy_info:
+  author: Andrew Rothstein
+  description: installs nats-streaming-server
+  company: BlackRock Financial Management
+  license:
+    - MIT
+  min_ansible_version: 2.0
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Alpine
+      versions:
+        - all
+    - name: Archlinux
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - buster
+        - jessie
+        - stretch
+  galaxy_tags:
+    - development
+  role_name: nats_streaming_server
+
+dependencies:
+  - role: andrewrothstein.nats
+    version: v2.0.0
+    nats_app: nats-streaming-server
+    nats_ver: v0.16.2
+    nats_checksums:
+      v0.16.2:
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-darwin-amd64.zip
+        darwin-amd64: sha256:7782c40c23eaf80c5e788e0e487e62d97dbd2d30c8a0bdc6e068c8b902f1e0bb
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-linux-386.zip
+        linux-386: sha256:02476cbc719e7c71512e4b9c2285e9e46d9aca4421e5802b1631110cb4ef492b
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-linux-amd64.zip
+        linux-amd64: sha256:71d2dfa1bcede6458f17160a644e2aa8989aaa39f68017be2011d538e2949eb8
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-linux-arm6.zip
+        linux-arm6: sha256:e6a62e12ccbef1b743e31321edd195cf461f6fb869c9f1eb86fc6be037d493e0
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-linux-arm64.zip
+        linux-arm64: sha256:ffc6e8dc1c75c54f1fb3ccaf037b96e42ef8e9002d9d7a9ef986e6fd5f97331b
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-linux-arm7.zip
+        linux-arm7: sha256:652375481c44d0a5215d704ba33ee43d19183fda26fc5c301e1177c49f227317
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-windows-386.zip
+        windows-386: sha256:2c302d359fecda38f6d2c87572ea7875583fa1e18c2bcf004ff680a20fed3a78
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-windows-amd64.zip
+        windows-amd64: sha256:8f46f62ea25c37469d9de5831f57480fc65f2ebf95ef3d4e2c54306651b2bf9d
