@@ -35,4 +35,4 @@ dlapp() {
     dl $app $ver windows amd64
 }
 
-dlapp nats-streaming-server ${1:-v0.16.2}
+dlapp nats-streaming-server ${1:-v0.21.2}

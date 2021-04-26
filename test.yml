@@ -2,3 +2,9 @@
 - hosts: all
   roles:
   - role: '{{ playbook_dir }}'
+  tasks:
+  - command: /usr/local/nats-streaming-server/nats-streaming-server --version
+    register: nats_streaming_server_test_output
+  - name: nats-streaming-server --version
+    debug:
+      msg: '{{ nats_streaming_server_test_output.stdout }}'
