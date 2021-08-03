@@ -1,6 +1,6 @@
 andrewrothstein.nats_streaming_server
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-nats_streaming_server.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-nats_streaming_server)
+![Build Status](https://github.com/andrewrothstein/ansible-nats_streaming_server/actions/workflows/build.yml/badge.svg)
 
 Installs [nats-streamin-server](https://github.com/nats-io/nats-streaming-server)
 
