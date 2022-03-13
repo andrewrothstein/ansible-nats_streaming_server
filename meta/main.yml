@@ -35,7 +35,7 @@ galaxy_info:
 dependencies:
   - name: andrewrothstein.nats
     nats_app: nats-streaming-server
-    nats_ver: v0.23.2
+    nats_ver: v0.24.3
     nats_checksums:
       v0.16.2:
         # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-darwin-amd64.zip
@@ -105,3 +105,28 @@ dependencies:
         windows-386: sha256:0a6853b90e84d5de1e5d1617e04b6277454f90c76224df47e48dd7565e9f5beb
         # https://github.com/nats-io/nats-streaming-server/releases/download/v0.23.2/nats-streaming-server-v0.23.2-windows-amd64.zip
         windows-amd64: sha256:b28dc8e1565d6fece68781515f759b0ed870831cdf2f7925cff7cf9acb44e7ec
+      v0.24.3:
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-darwin-amd64.zip
+        darwin-amd64: sha256:92ebce67e22466b005e0544754e59bb240ba27c56c3cb9b615e539ee09ea8c2f
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-darwin-arm64.zip
+        darwin-arm64: sha256:20816be8b3a5cc29b5d6be6dda54d7c4af38a1df1ee6273b159fdb2eb1ae9d5f
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-linux-386.zip
+        linux-386: sha256:f051c9e66ea14033e85675c44045a724d5fe1faafdcb43465b5db1cd4b86a39e
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-linux-amd64.zip
+        linux-amd64: sha256:c08ebcc63cdf6c490ab4fdd9e67632661b4c413f6b3bb2542e3b6692fabba343
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-linux-arm6.zip
+        linux-arm6: sha256:8ec9e1392d8bd251087f5857b33ae45b4e406451a572f8b3ea08a2d8601798f6
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-linux-arm64.zip
+        linux-arm64: sha256:7026caff8a8bad7166b902f27e54091df5cc3bf139797624424270ff38cb96fa
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-linux-arm7.zip
+        linux-arm7: sha256:a87c30bac16b0af15e55a272a656acc4557dabfca829945040c9448fb6879429
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-windows-386.zip
+        windows-386: sha256:fd86624eedeead51ab64f33d4ac4b4836e5ea92d2ddfc86e25e7a1e7c17a86b8
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-windows-amd64.zip
+        windows-amd64: sha256:7473bfa7efd734ca6984907bc9586260031cca926883b468b4752557ecefaff0
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-windows-arm6.zip
+        windows-arm6: sha256:ff117467f2de9d4756319c296da7801a544808947e0ac1dd3c19e666b21080d4
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-windows-arm7.zip
+        windows-arm7: sha256:4f320a36fb3dee6054d15cc5f43163e4bd453e3755bffa16b6642fa5d181927e
+        # https://github.com/nats-io/nats-streaming-server/releases/download/v0.24.3/nats-streaming-server-v0.24.3-windows-arm64.zip
+        windows-arm64: sha256:75bc9ea007368d54c3609d92d53cfe7765ba99faa80291330143e2dc505db56d

@@ -14,7 +14,7 @@ dl()
     local url=$mirror/$file
     if [ ! -e $lfile ];
     then
-        wget -q -O $lfile $url
+        curl -sSLf -o $lfile $url
     fi
 
     printf "        # %s\n" $url
@@ -26,6 +26,7 @@ dlapp() {
     local ver=$2
     printf "      %s:\n" $ver
     dl $app $ver darwin amd64
+    dl $app $ver darwin arm64
     dl $app $ver linux 386
     dl $app $ver linux amd64
     dl $app $ver linux arm6
@@ -33,6 +34,9 @@ dlapp() {
     dl $app $ver linux arm7
     dl $app $ver windows 386
     dl $app $ver windows amd64
+    dl $app $ver windows arm6
+    dl $app $ver windows arm7
+    dl $app $ver windows arm64
 }
 
-dlapp nats-streaming-server ${1:-v0.23.2}
+dlapp nats-streaming-server ${1:-v0.24.3}
