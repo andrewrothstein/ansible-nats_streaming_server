@@ -1,7 +1,7 @@
 ---
 # defaults file for nats_streaming_server
 nats_app: nats-streaming-server
-nats_ver: v0.25.4
+nats_ver: v0.25.6
 nats_checksums:
   v0.16.2:
     # https://github.com/nats-io/nats-streaming-server/releases/download/v0.16.2/nats-streaming-server-v0.16.2-darwin-amd64.zip
@@ -246,3 +246,28 @@ nats_checksums:
     windows-arm7: sha256:2dbee82a07460b3dbcce5b188f90fad2b07efa19bbb7da95dabba856ee71847e
     # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.4/nats-streaming-server-v0.25.4-windows-arm64.zip
     windows-arm64: sha256:989e712f063275603635a633d10d3dc65fdd57a4fd2d35189811f11be4251e2e
+  v0.25.6:
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-darwin-amd64.zip
+    darwin-amd64: sha256:f3ee4f0b29391b329312d0e6ef4a0ed60378c64dd8db0ff3ff7c79ab63c4d49e
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-darwin-arm64.zip
+    darwin-arm64: sha256:bd9f7272d0fcf4e2cf7eecba5ff2b68171445d6e3c98e11fe3e2b612e7aa7fd9
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-linux-386.zip
+    linux-386: sha256:42c3bdaf3b81a9b4e11a3936644dc86594f181641601836ed7b8094608f0a876
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-linux-amd64.zip
+    linux-amd64: sha256:f6fcd66c1150ad17d0571490880225afed0ddc8851f64e2c2b138fc8475aced3
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-linux-arm6.zip
+    linux-arm6: sha256:2114b41f3f0fa114d212ed5a7101da704b5d847fd87387bf098d515a49d301f1
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-linux-arm64.zip
+    linux-arm64: sha256:2dc22709ac657c3388554bc7c388489bb9c016b844a5e1ab998ddcc727acfd8e
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-linux-arm7.zip
+    linux-arm7: sha256:ccd0fa7435c632053e36c32485d0a786334ed68ec537faf292cda028ab6838b0
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-windows-386.zip
+    windows-386: sha256:fb7ff560effcf6d6890e7353de335a36a9d00a795896ac9aa3420d05c167bbdb
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-windows-amd64.zip
+    windows-amd64: sha256:41be7de372eea07f0923420c525336eaf311ab9f9878d8823cf7b69c74da5351
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-windows-arm6.zip
+    windows-arm6: sha256:50c4bf72cd961151a1031fb8a35b920079061f86de23a678b05145e832a8dbbe
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-windows-arm7.zip
+    windows-arm7: sha256:ccf0a8d45be5dca2081eb79f65cff5dd017f00ca07ff9bce9c367ee7b15d31d3
+    # https://github.com/nats-io/nats-streaming-server/releases/download/v0.25.6/nats-streaming-server-v0.25.6-windows-arm64.zip
+    windows-arm64: sha256:574fc1c0fbd0c465c9a5d6214415823f753f22e039448dac9f3e06e634b299d0
